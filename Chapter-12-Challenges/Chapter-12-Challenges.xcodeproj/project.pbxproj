@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1C2E26226AD5E7A00593141 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C2E26126AD5E7A00593141 /* AppDelegate.swift */; };
+		A1C2E26426AD5E7A00593141 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C2E26326AD5E7A00593141 /* SceneDelegate.swift */; };
+		A1C2E26626AD5E7A00593141 /* SecondChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C2E26526AD5E7A00593141 /* SecondChallengeViewController.swift */; };
+		A1C2E26926AD5E7A00593141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C2E26726AD5E7A00593141 /* Main.storyboard */; };
+		A1C2E26B26AD5E7C00593141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C2E26A26AD5E7C00593141 /* Assets.xcassets */; };
+		A1C2E26E26AD5E7C00593141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C2E26C26AD5E7C00593141 /* LaunchScreen.storyboard */; };
+		A1C51D3B26B2EFFF00793DD5 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1C51D3226B2EFFE00793DD5 /* Ubuntu-Bold.ttf */; };
+		A1C51D3C26B2EFFF00793DD5 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1C51D3326B2EFFE00793DD5 /* Ubuntu-Light.ttf */; };
+		A1C51D3D26B2EFFF00793DD5 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1C51D3426B2EFFE00793DD5 /* Ubuntu-Regular.ttf */; };
+		A1C51D3E26B2EFFF00793DD5 /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1C51D3526B2EFFE00793DD5 /* Ubuntu-LightItalic.ttf */; };
+		A1C51D3F26B2EFFF00793DD5 /* UFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = A1C51D3626B2EFFE00793DD5 /* UFL.txt */; };
+		A1C51D4026B2EFFF00793DD5 /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1C51D3726B2EFFE00793DD5 /* Ubuntu-MediumItalic.ttf */; };
+		A1C51D4126B2EFFF00793DD5 /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1C51D3826B2EFFE00793DD5 /* Ubuntu-Italic.ttf */; };
+		A1C51D4226B2EFFF00793DD5 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1C51D3926B2EFFE00793DD5 /* Ubuntu-Medium.ttf */; };
+		A1C51D4326B2EFFF00793DD5 /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1C51D3A26B2EFFE00793DD5 /* Ubuntu-BoldItalic.ttf */; };
+		A1C51D4526B2F1FB00793DD5 /* Ubuntu.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1C51D4426B2F1FB00793DD5 /* Ubuntu.plist */; };
+		A1C51D4726B2F4A700793DD5 /* ThirdChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C51D4626B2F4A700793DD5 /* ThirdChallengeViewController.swift */; };
+		A1C51D4926B2F56600793DD5 /* ScaledFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C51D4826B2F56600793DD5 /* ScaledFont.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1C2E25E26AD5E7A00593141 /* Chapter-12-Challenges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chapter-12-Challenges.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C2E26126AD5E7A00593141 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1C2E26326AD5E7A00593141 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A1C2E26526AD5E7A00593141 /* SecondChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondChallengeViewController.swift; sourceTree = "<group>"; };
+		A1C2E26826AD5E7A00593141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1C2E26A26AD5E7C00593141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1C2E26D26AD5E7C00593141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1C2E26F26AD5E7C00593141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1C51D3226B2EFFE00793DD5 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		A1C51D3326B2EFFE00793DD5 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
+		A1C51D3426B2EFFE00793DD5 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		A1C51D3526B2EFFE00793DD5 /* Ubuntu-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-LightItalic.ttf"; sourceTree = "<group>"; };
+		A1C51D3626B2EFFE00793DD5 /* UFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UFL.txt; sourceTree = "<group>"; };
+		A1C51D3726B2EFFE00793DD5 /* Ubuntu-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A1C51D3826B2EFFE00793DD5 /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Italic.ttf"; sourceTree = "<group>"; };
+		A1C51D3926B2EFFE00793DD5 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		A1C51D3A26B2EFFE00793DD5 /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A1C51D4426B2F1FB00793DD5 /* Ubuntu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Ubuntu.plist; sourceTree = "<group>"; };
+		A1C51D4626B2F4A700793DD5 /* ThirdChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdChallengeViewController.swift; sourceTree = "<group>"; };
+		A1C51D4826B2F56600793DD5 /* ScaledFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaledFont.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1C2E25B26AD5E7A00593141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1C2E25526AD5E7A00593141 = {
+			isa = PBXGroup;
+			children = (
+				A1C2E26026AD5E7A00593141 /* Chapter-12-Challenges */,
+				A1C2E25F26AD5E7A00593141 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1C2E25F26AD5E7A00593141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1C2E25E26AD5E7A00593141 /* Chapter-12-Challenges.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1C2E26026AD5E7A00593141 /* Chapter-12-Challenges */ = {
+			isa = PBXGroup;
+			children = (
+				A1C2E26126AD5E7A00593141 /* AppDelegate.swift */,
+				A1C2E26326AD5E7A00593141 /* SceneDelegate.swift */,
+				A1C2E26526AD5E7A00593141 /* SecondChallengeViewController.swift */,
+				A1C51D4A26B2FB6900793DD5 /* Challenge 12.3 */,
+				A1C2E26726AD5E7A00593141 /* Main.storyboard */,
+				A1C2E26A26AD5E7C00593141 /* Assets.xcassets */,
+				A1C2E26C26AD5E7C00593141 /* LaunchScreen.storyboard */,
+				A1C2E26F26AD5E7C00593141 /* Info.plist */,
+			);
+			path = "Chapter-12-Challenges";
+			sourceTree = "<group>";
+		};
+		A1C51D3126B2EFBD00793DD5 /* Ubuntu Font */ = {
+			isa = PBXGroup;
+			children = (
+				A1C51D3226B2EFFE00793DD5 /* Ubuntu-Bold.ttf */,
+				A1C51D3A26B2EFFE00793DD5 /* Ubuntu-BoldItalic.ttf */,
+				A1C51D3826B2EFFE00793DD5 /* Ubuntu-Italic.ttf */,
+				A1C51D3326B2EFFE00793DD5 /* Ubuntu-Light.ttf */,
+				A1C51D3526B2EFFE00793DD5 /* Ubuntu-LightItalic.ttf */,
+				A1C51D3926B2EFFE00793DD5 /* Ubuntu-Medium.ttf */,
+				A1C51D3726B2EFFE00793DD5 /* Ubuntu-MediumItalic.ttf */,
+				A1C51D3426B2EFFE00793DD5 /* Ubuntu-Regular.ttf */,
+				A1C51D3626B2EFFE00793DD5 /* UFL.txt */,
+			);
+			path = "Ubuntu Font";
+			sourceTree = "<group>";
+		};
+		A1C51D4A26B2FB6900793DD5 /* Challenge 12.3 */ = {
+			isa = PBXGroup;
+			children = (
+				A1C51D3126B2EFBD00793DD5 /* Ubuntu Font */,
+				A1C51D4426B2F1FB00793DD5 /* Ubuntu.plist */,
+				A1C51D4626B2F4A700793DD5 /* ThirdChallengeViewController.swift */,
+				A1C51D4826B2F56600793DD5 /* ScaledFont.swift */,
+			);
+			path = "Challenge 12.3";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1C2E25D26AD5E7A00593141 /* Chapter-12-Challenges */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1C2E27226AD5E7C00593141 /* Build configuration list for PBXNativeTarget "Chapter-12-Challenges" */;
+			buildPhases = (
+				A1C2E25A26AD5E7A00593141 /* Sources */,
+				A1C2E25B26AD5E7A00593141 /* Frameworks */,
+				A1C2E25C26AD5E7A00593141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chapter-12-Challenges";
+			productName = "Chapter-12-Challenges";
+			productReference = A1C2E25E26AD5E7A00593141 /* Chapter-12-Challenges.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1C2E25626AD5E7A00593141 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A1C2E25D26AD5E7A00593141 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = A1C2E25926AD5E7A00593141 /* Build configuration list for PBXProject "Chapter-12-Challenges" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1C2E25526AD5E7A00593141;
+			productRefGroup = A1C2E25F26AD5E7A00593141 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1C2E25D26AD5E7A00593141 /* Chapter-12-Challenges */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1C2E25C26AD5E7A00593141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C51D3D26B2EFFF00793DD5 /* Ubuntu-Regular.ttf in Resources */,
+				A1C51D3B26B2EFFF00793DD5 /* Ubuntu-Bold.ttf in Resources */,
+				A1C2E26E26AD5E7C00593141 /* LaunchScreen.storyboard in Resources */,
+				A1C51D4126B2EFFF00793DD5 /* Ubuntu-Italic.ttf in Resources */,
+				A1C51D4526B2F1FB00793DD5 /* Ubuntu.plist in Resources */,
+				A1C51D3E26B2EFFF00793DD5 /* Ubuntu-LightItalic.ttf in Resources */,
+				A1C51D3F26B2EFFF00793DD5 /* UFL.txt in Resources */,
+				A1C51D3C26B2EFFF00793DD5 /* Ubuntu-Light.ttf in Resources */,
+				A1C2E26B26AD5E7C00593141 /* Assets.xcassets in Resources */,
+				A1C51D4326B2EFFF00793DD5 /* Ubuntu-BoldItalic.ttf in Resources */,
+				A1C2E26926AD5E7A00593141 /* Main.storyboard in Resources */,
+				A1C51D4026B2EFFF00793DD5 /* Ubuntu-MediumItalic.ttf in Resources */,
+				A1C51D4226B2EFFF00793DD5 /* Ubuntu-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1C2E25A26AD5E7A00593141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C2E26626AD5E7A00593141 /* SecondChallengeViewController.swift in Sources */,
+				A1C2E26226AD5E7A00593141 /* AppDelegate.swift in Sources */,
+				A1C51D4726B2F4A700793DD5 /* ThirdChallengeViewController.swift in Sources */,
+				A1C2E26426AD5E7A00593141 /* SceneDelegate.swift in Sources */,
+				A1C51D4926B2F56600793DD5 /* ScaledFont.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A1C2E26726AD5E7A00593141 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1C2E26826AD5E7A00593141 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1C2E26C26AD5E7C00593141 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1C2E26D26AD5E7C00593141 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1C2E27026AD5E7C00593141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1C2E27126AD5E7C00593141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1C2E27326AD5E7C00593141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Chapter-12-Challenges/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boris.Chapter-12-Challenges";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1C2E27426AD5E7C00593141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Chapter-12-Challenges/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boris.Chapter-12-Challenges";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1C2E25926AD5E7A00593141 /* Build configuration list for PBXProject "Chapter-12-Challenges" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C2E27026AD5E7C00593141 /* Debug */,
+				A1C2E27126AD5E7C00593141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1C2E27226AD5E7C00593141 /* Build configuration list for PBXNativeTarget "Chapter-12-Challenges" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C2E27326AD5E7C00593141 /* Debug */,
+				A1C2E27426AD5E7C00593141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1C2E25626AD5E7A00593141 /* Project object */;
+}
